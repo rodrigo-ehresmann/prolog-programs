@@ -4,7 +4,7 @@ Puzzle solvers and other utilities developed with Prolog.
 Implemented using SWI-Prolog version 6.6.4 for amd64.
 
 ## Twelve Coins Problem
-Non generic implementation of a solver for the coins problem ([ballance puzzle](https://en.wikipedia.org/wiki/Balance_puzzle)), allowed to work with and oly with twelve coins, finding the coin whit different weight.
+Non generic implementation of a solver for the coins problem ([ballance puzzle](https://en.wikipedia.org/wiki/Balance_puzzle)), allowed to work with and only with twelve coins, finding the coin whit different weight.
 
 In this implementation, consider that the representation of a coin is the list with the format *[coin_index, coin_weight, coins_definition]*, and that the coins options are the static list *[n,h,l]*, where *n* is normal, *h* is heaviest and *l* is lighter.
 
