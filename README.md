@@ -15,7 +15,7 @@ Call the *find_different_coin/3* predicate, informing a list with the coins weig
 ?- find_different_coin([2,2,2,2,2,2,2,2,9,2,2,2], Position, Definition).
 ```
 
-## Boolean Satisfability
+## Boolean Satisfability Problem
 Solver implementation for (boolean satisfability problem)[https://en.wikipedia.org/wiki/Boolean_satisfiability_problem] using non chronological backtracking ([bakcjumping](https://en.wikipedia.org/wiki/Backjumping)) technique.
 
 In this implementation, the logical formula is in (CNF)[https://fairmut3x.wordpress.com/2011/07/29/cnf-conjunctive-normal-form-dimacs-format-explained/] format, but only supports OR(v) logic operation. Consider that every atom is represented like *x1, x2, x3, ..., xN*, a negation is *~* and came before an atom name and the OR operation is *#*. Every logical expression need to be between parenthesis.
